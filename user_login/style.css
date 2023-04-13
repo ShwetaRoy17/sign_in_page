@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=PT+Serif&display=swap');
+/* utility class */
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.dis{
+    display: flex;
+    flex-direction: column;
+}
+.mar_wid{
+    margin-bottom: .8rem;
+    width: 15rem;
+}
+.mar_wid input{
+    border:solid .01px #ec6e14;
+    color:#DBCCAE;
+    height: 2rem;
+    border-radius: .2rem;
+
+}
+.lab{
+    width:90%;
+    padding:0;
+    margin-top: .4rem;
+}
+/* body */
+body{
+    background: linear-gradient(to top,#ec6e14,#D6A87E) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+input{
+    width:60%
+}
+.container{
+    font-family: sans-serif;
+    background-color:  white ;
+    opacity: .85;
+    color:  black;
+    width: 50%;
+    margin-top: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    border-radius: 4.2px;
+    border: solid 1px white ;
+    font-family: 'Noto Serif','PT Serif';
+  
+}
+
+#heading{
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'PT Serif', serif;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit{
+    width: 50px;
+    border: solid 0.1rem white;
+    background: orange;
+    color: white;
+    margin-top: 4rem;
+}
+.bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 28%;
+}
+#forgot{
+    color: #ec6e14;
+    background: none;
+    border: 0px;
+    margin-top: 4rem;
+    font-size: .5rem;
+}
+#forgot a{
+    text-decoration: none;
+    color: #ec6e14;
+}
